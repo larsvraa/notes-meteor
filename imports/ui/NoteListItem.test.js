@@ -13,12 +13,12 @@ if (Meteor.isClient) {
 
       const wrapper = mount( <NoteListItem note={{title, updatedAt}}/>);
       expect(wrapper.find('h5').text()).toBe(title);
-      expect(wrapper.find('p').text()).toBe('4/23/17');
+      expect(wrapper.find('p').text()).toBe('1/02/18');
     });
 
     it('should set defualt title if no title set', function(){
       const title = '';
-      const updatedAt = 1492956529171;
+      const updatedAt = 1514934300987;
 
       const wrapper = mount( <NoteListItem note={{title, updatedAt}}/>);
       expect(wrapper.find('h5').text()).toBe('Untitled note');
