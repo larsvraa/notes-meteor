@@ -18,8 +18,7 @@ NoteListHeader.propTypes = {
 
 
 export default createContainer (() => {
-
   return {
     meteorCall: Meteor.call
   };
-},NoteListHeader);
+}, NoteListHeader);
