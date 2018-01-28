@@ -14,7 +14,7 @@ $large-space: 2.8rem;
 $site-max-width: 100rem;
 
 //Font sizes
-$base-font-size: 1.4rem;
+$base-font-size: 1.6rem;
 $large-font-size: 2.2rem;
 //Form Inputs
 $input-border: $grey;
@@ -36,10 +36,9 @@ $button-secondary-border-color: $grey;
 $header-bg: $brand-primary;
 $header-color: white;
 $header-height: 6rem;
+
 //Item
-$item-bg: $light-grey;
-$item-border: darken($item-bg, 9%);
-$item-text-color: $dark-grey;
+$item-border-width: 4px;
 
 // Page content
 $page-content-sidebar-width: 30rem;
